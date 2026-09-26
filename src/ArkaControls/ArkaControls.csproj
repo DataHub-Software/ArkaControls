@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net48;net8.0-windows</TargetFrameworks>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ArkaControls</RootNamespace>
+    <AssemblyName>ArkaControls</AssemblyName>
+
+    <!-- NuGet -->
+    <PackageId>ArkaControls</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>ArkaControls contributors</Authors>
+    <Description>Flat, rounded-corner Windows Forms controls (button, panel, text box, combo box, label, toggle switch, separator) with full designer support and a data grid theme. MIT licensed.</Description>
+    <PackageTags>winforms;controls;ui;rounded;flat;designer</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="ArkaControls.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

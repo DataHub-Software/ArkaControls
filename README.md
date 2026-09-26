@@ -1,6 +1,6 @@
 # ArkaControls
 
-Flat, rounded-corner **Windows Forms controls** with full Visual Studio designer support. MIT licensed, free for commercial use, no activation, no subscription.
+Flat, rounded-corner **Windows Forms controls** with full Visual Studio designer support. Apache-2.0 licensed, free for commercial use, no activation, no subscription.
 
 | Control | Base | Highlights |
 |---|---|---|
@@ -37,6 +37,14 @@ Property names deliberately follow the common convention (`FillColor`, `BorderRa
 
 `0.1.0` — first cut. Drawing code is verified visually with `samples/ArkaControls.Demo` on Windows; unit tests cover the logic that does not need a display (markup parser, colour maths, theme). Not yet done: live re-theming of existing controls, per-monitor DPI audit, high-contrast mode, Narrator pass. See issues.
 
+## Attribution: please keep it
+
+If you redistribute ArkaControls, or a work derived from it, you must keep the copyright headers, ship the [LICENSE](LICENSE) and [NOTICE](NOTICE) files, and state your changes (Apache-2.0 Section 4). Applications that merely **use** the NuGet package should list it in their open-source notices; `ArkaAbout.Notice` returns the line to show. The name "ArkaControls" and its logo are trademarks of DataHub Software: forks must use their own name and say they are a fork of https://github.com/DataHub-Software/ArkaControls (see [TRADEMARKS.md](TRADEMARKS.md)).
+
+## Contributing
+
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first: sign your commits (`git commit -s`), do not submit code derived from other UI libraries, and attach screenshots for visual changes. Project rules and how licence violations are handled are in [GOVERNANCE.md](GOVERNANCE.md). Security reports: [SECURITY.md](SECURITY.md).
+
 ## Independence
 
 ArkaControls is an independent implementation written from scratch. It is not affiliated with, derived from, or endorsed by any commercial control vendor. Matching property names is for migration convenience only; no third-party code, assets or documentation were used.
@@ -52,4 +60,4 @@ Builds on any OS with the .NET SDK (Windows targeting enabled); running the demo
 
 ## Licence
 
-[MIT](LICENSE)
+[Apache-2.0](LICENSE) - Copyright (c) 2026 DataHub Software

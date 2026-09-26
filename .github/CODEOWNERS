@@ -1,0 +1,7 @@
+# Every change needs review from a code owner (enforced by branch protection).
+*                @PrasadKothe
+/LICENSE         @PrasadKothe
+/NOTICE          @PrasadKothe
+/TRADEMARKS.md   @PrasadKothe
+/GOVERNANCE.md   @PrasadKothe
+/.github/        @PrasadKothe

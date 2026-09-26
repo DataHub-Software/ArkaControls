@@ -1,3 +1,6 @@
+// Copyright (c) 2026 DataHub Software
+// SPDX-License-Identifier: Apache-2.0
+
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -35,7 +38,7 @@ namespace ArkaControls.Demo
             card.CustomBorderThickness = 4;
             Controls.Add(card);
 
-            card.Controls.Add(new ArkaHtmlLabel { Location = new Point(24, 22), Text = "<b>ArkaControls</b> demo &nbsp; <i>rounded, flat, MIT</i>", Font = new Font("Segoe UI", 14F) });
+            card.Controls.Add(new ArkaHtmlLabel { Location = new Point(24, 22), Text = "<b>ArkaControls</b> demo &nbsp; <i>rounded, flat, Apache-2.0</i>", Font = new Font("Segoe UI", 14F) });
 
             var name = new ArkaTextBox { Location = new Point(24, 70), Size = new Size(320, 40), PlaceholderText = "Search customer…" };
             var pass = new ArkaTextBox { Location = new Point(360, 70), Size = new Size(320, 40), PlaceholderText = "PIN", UseSystemPasswordChar = true };

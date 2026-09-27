@@ -1,3 +1,6 @@
+// Copyright (c) 2026 DataHub Software
+// SPDX-License-Identifier: Apache-2.0
+
 using System;
 using System.ComponentModel;
 using System.Drawing;
